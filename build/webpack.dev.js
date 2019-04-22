@@ -1,5 +1,6 @@
 var path = require('path')
 const { VueLoaderPlugin } = require('vue-loader')
+
 var webpack = require('webpack')
 
 //////////  Change Here   ///////////
