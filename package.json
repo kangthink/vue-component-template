@@ -1,0 +1,37 @@
+{
+  "name": "vue-sample-comp",
+  "version": "1.1.0",
+  "description": "Basic template for single component development.",
+  "main": "dist/sample-comp.min.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack-dev-server --content-base ./examples/commonjs --env=webpack.dev --open --hot",
+    "dist": "webpack --env=webpack.dist",
+    "deploy": "npm run dist && npm publish ."
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "keywords": [
+    "vue",
+    "vue.js",
+    "vue 2"
+  ],
+  "author": "Taehoon Kang",
+  "license": "MIT",
+  "bugs": {},
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.4.3",
+    "babel-loader": "^8.0.5",
+    "babel-preset-env": "^1.7.0",
+    "css-loader": "^2.1.1",
+    "vue": "^2.6.10",
+    "vue-loader": "^15.7.0",
+    "vue-template-compiler": "^2.6.10",
+    "webpack": "^4.30.0",
+    "webpack-cli": "^3.3.1",
+    "webpack-dev-server": "^3.3.1"
+  }
+}
