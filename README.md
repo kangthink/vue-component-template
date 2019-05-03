@@ -17,10 +17,10 @@ This file is for the development. Change the path and component names accordingl
 See the comments in each file.
 
 ### 4. Change the path of 'index.html' file in examples
-The script path in index.html should refer to the path configured in 'build/webpack.dev.js'.
+The script path in index.html should refer to the path configured in `build/webpack.dev.js`.
 
-### 5. 'npm install' or 'npm ci'
-If you want to use the same package version in 'package-lock.json', then use 'npm ci'.
+### 5. 'npm install'
+Install all depencencies. It will use the version in `npm-shrinkwrap.json` file
 
 
 
